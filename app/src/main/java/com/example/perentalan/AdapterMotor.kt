@@ -12,8 +12,8 @@ class AdapterMotor(private val listMotor:List<MotorModel>):
 
     class ViewHolder(ItemView: View):RecyclerView.ViewHolder(ItemView){
       val image:ImageView = ItemView.findViewById(R.id.imageViewMotor)
-      val title:TextView = ItemView.findViewById(R.id.textView1)
-        val desc:TextView = ItemView.findViewById(R.id.textView2)
+      val title:TextView = ItemView.findViewById(R.id.textNam)
+        val desc:TextView = ItemView.findViewById(R.id.textDes)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):ViewHolder {

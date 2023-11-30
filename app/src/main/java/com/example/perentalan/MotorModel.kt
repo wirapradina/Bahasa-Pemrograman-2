@@ -1,5 +1,3 @@
 package com.example.perentalan
 
-
-class MotorModel(var image:Int, var title:String, var desc:String) {
-}
+data class MotorModel(val image:Int, val title:String, val desc:String )

@@ -65,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lupa Password?"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/poppinsbold"
             android:textColor="@color/primary" />
 
@@ -73,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/primary"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/poppinssemibold"
             android:text="Login"
             tools:ignore="TextSizeCheck" />
