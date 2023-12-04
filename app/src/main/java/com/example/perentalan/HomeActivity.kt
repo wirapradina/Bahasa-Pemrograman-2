@@ -12,11 +12,17 @@ class HomeActivity : AppCompatActivity() {
 
         //instance
         val  btnMotor:ImageView = findViewById(R.id.btnMotor)
+        val btnDes:ImageView = findViewById(R.id.btnDes)
 
         //saat diklik
         btnMotor.setOnClickListener {
             val intentbtnMotor = Intent(this,ListMotorActivity::class.java)
             startActivity(intentbtnMotor)
+        }
+
+        btnDes.setOnClickListener {
+            val intentbtnDes = Intent(this,DesListActivity::class.java)
+            startActivity(intentbtnDes)
         }
     }
 }

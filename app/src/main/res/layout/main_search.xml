@@ -11,13 +11,15 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginRight="10dp"
         android:layout_weight="1"
+        android:backgroundTint="#A3ECE3E3"
         android:background="@drawable/bg_search"
         android:drawableEnd="@drawable/search"
         android:hint="Cari Motor..."
+        android:textColor="@color/black"
         android:padding="20dp" />
 
 
